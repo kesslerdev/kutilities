@@ -1,0 +1,22 @@
+{
+  "name": "kutilities",
+  "version": "0.0.1",
+  "description": "Just a private utility ",
+  "main": "index.js",
+  "author": "Kessler dev <kessler.dev@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "bin": {
+    "k": "src/bin/k.js",
+    "ksf": "src/bin/short/ksf.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "git+https://github.com/tj/commander.js.git",
+    "figlet": "^1.2.0",
+    "pretty-error": "^2.1.0",
+    "update-notifier": "^2.2.0"
+  }
+}
